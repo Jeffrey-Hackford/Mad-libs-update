@@ -12,49 +12,45 @@
     <div class="container">
       <h1>Fill out the form for a funny Mad Lib!</h1>
       <div id="blanks">
-        <form class="form-horizontal">
+        <form>
           <div class="form-group">
-            <label class="col-sm-1">Name</label>
-            <div class="col-sm-11">
-              <input type="text" class="form-control">
-            </div>
+            <label for="name1">Name</label>
+            <input id="name1" class="form-control" type="text">
           </div>
+
           <div class="form-group">
-            <label class="col-sm-1">Name 2</label>
-            <div class="col-sm-11">
-              <input type="text" class="form-control">
-            </div>
+            <label for="name2">Name 2</label>
+            <input id="name2" class="form-control" type="text">
           </div>
+
           <div class="form-group">
-            <label class="col-sm-1">Adjective</label>
-            <div class="col-sm-11">
-              <input type="text" class="form-control">
-            </div>
+            <label for="adjective">Adjective</label>
+            <input id="adjective" class="form-control" type="text">
           </div>
+
           <div class="form-group">
-            <label class="col-sm-1">Verb</label>
-            <div class="col-sm-11">
-              <input type="text" class="form-control">
-            </div>
+            <label for="verb">Verb</label>
+            <input id="verb" class="form-control" type="text">
           </div>
+
           <div class="form-group">
-            <label class="col-sm-1">Noun</label>
-            <div class="col-sm-11">
-              <input type="text" class="form-control">
-            </div>
+            <label for="noun">Noun</label>
+            <input id="noun" class="form-control" type="text">
           </div>
+
           <div class="form-group">
-            <label class="col-sm-1">Vehicle</label>
-            <div class="col-sm-11">
-              <input type="text" class="form-control">
-            </div>
+            <label for="vehicle">Vehicle</label>
+            <input id="vehicle" class="form-control" type="text">
           </div>
+
           <button type="submit" class="btn">Show me the story!</button>
         </form>
       </div>
+
       <div id="story">
         <h1>Taking a Ride</h1>
-        <p>One fine day,
+        <p>One fine day, <span class="name1"></span> was driving a <span class="vehicle"></span> when <span class="name2"></span> jumped out into the road. <span class="name1"></span> swerved, but ended up hitting <span class="name2"></span> and <span class="name2"></span> <span class="verb"></span> into a
+        <span class="adjective"></span> <span class="noun"></span>. <span class="name1"></span> drove away quickly.</p>
       </div>
     </div>
   </body>
