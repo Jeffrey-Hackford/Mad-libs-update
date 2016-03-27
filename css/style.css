@@ -1,7 +1,18 @@
 h1{
+  margin-top: 20px;
   margin-bottom: 30px;
+  text-align: center;
+  color: #cc3300;
 }
 
 #story {
   display: none;
+}
+
+textarea {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-top: 20px;
 }

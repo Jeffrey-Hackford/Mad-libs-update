@@ -6,11 +6,12 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.2.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Mad Lib</title>
+    <title>Practice: Forms</title>
   </head>
   <body>
     <div class="container">
-      <h1>Fill out the form for a funny Mad Lib!</h1>
+      <h1>Project: Mad Lib</h1>  <!-- Start Mad Lib Project -->
+      <h2>Fill out the form for a funny Mad Lib!</h2>
       <div id="blanks">
         <form>
           <div class="form-group">
@@ -43,15 +44,30 @@
             <input id="vehicle" class="form-control" type="text">
           </div>
 
-          <button type="submit" class="btn">Show me the story!</button>
+          <button type="submit" class="btn btn-success">Show me the story!</button>
         </form>
       </div>
+      <p>Result:</p>
 
       <div id="story">
-        <h1>Taking a Ride</h1>
+        <h2>Taking a Ride</h2>
         <p>One fine day, <span class="name1"></span> was driving a <span class="vehicle"></span> when <span class="name2"></span> jumped out into the road. <span class="name1"></span> swerved, but ended up hitting <span class="name2"></span> and <span class="name2"></span> <span class="verb"></span> into a
         <span class="adjective"></span> <span class="noun"></span>. <span class="name1"></span> drove away quickly.</p>
       </div>
-    </div>
+      <hr>
+      <!-- End Mad Lib Project -->
+<!-- Start Uppercase Project -->
+      <h1>Project: Uppercase</h1>
+      <h2>Fill out the form, it will return in all uppercase.</h2>
+      <div id="blank-2">
+        <form>
+          <textarea class="form-control" rows="3"></textarea>
+          <button type="submit" class="btn btn-warning">Change to Uppercase</button>
+        </form>
+      </div>
+
+      <p>Result: <span class="text-result"></span></p>
+<!-- End Uppercase Project -->
+    </div>  <!-- End container -->
   </body>
 </html>

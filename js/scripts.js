@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  // Start Mad Lib Project
   $("#blanks form").submit(function(event) {
     var name1Input = $("input#name1").val();
     var name2Input = $("input#name2").val();
@@ -18,4 +19,13 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+  // End Mad Lib Project
+  // Start Uppercase Project
+  $("#blank-2 form").submit(function(event) {
+    var text2Input = $("textarea").val();
+    $(".text-result").text(text2Input.toUpperCase());
+
+    event.preventDefault();
+  });
+  // End Uppercase Project
 });
