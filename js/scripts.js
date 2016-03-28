@@ -13,5 +13,10 @@ $(document).ready(function() {
     event.preventDefault();
   });
   // End Mad Lib Project
-  // End Uppercase Project
+  // Start Favorite Ice Cream Project
+    ["choc", "strawberry", "vanilla"].forEach(function(anything2) {
+      $("#favorite-result").append("<li>"+anything2+"</li>");
+    });
+
+  // End Ice Cream Project
 });
